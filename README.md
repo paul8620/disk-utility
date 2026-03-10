@@ -34,6 +34,28 @@ disk-utility/
 └── README.md
 ```
 
+## Installation
+
+Download the latest release from the [Releases](../../releases) page.
+
+### macOS
+
+The app is not code-signed. macOS will show a warning that the app is damaged. To fix this, run:
+
+```bash
+xattr -cr "/Applications/Disk Analyzer.app"
+```
+
+Or right-click the app and select **Open** to bypass Gatekeeper.
+
+### Windows
+
+Run the `.msi` installer from the release assets.
+
+### Linux
+
+Download the `.deb` or `.AppImage` from the release assets.
+
 ## Build & run
 
 ```bash
