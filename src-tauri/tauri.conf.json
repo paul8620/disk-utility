@@ -1,6 +1,6 @@
 {
   "productName": "Disk Analyzer",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "identifier": "com.disk-analyzer.app",
   "build": {
     "frontendDist": "../frontend"
