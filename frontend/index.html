@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disk Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="toolbar">
+        <button id="btn-back" disabled>&#11013; Back</button>
+        <button id="btn-open">&#128194; Open Folder</button>
+        <span id="status"></span>
+    </div>
+
+    <div id="content">
+        <div id="welcome">
+            <h1>Disk Analyzer</h1>
+            <p>Click <strong>"Open Folder"</strong> to select a directory to analyze</p>
+        </div>
+        <div id="chart-container" style="display:none;">
+            <div id="chart"></div>
+        </div>
+        <div id="sidebar" style="display:none;">
+            <div id="sidebar-header">
+                <h3>Contents</h3>
+            </div>
+            <div id="file-list"></div>
+        </div>
+    </div>
+
+    <div id="delete-dialog" style="display:none;">
+        <div id="delete-overlay"></div>
+        <div id="delete-modal">
+            <p id="delete-message"></p>
+            <p class="warning" id="delete-warning">This action cannot be undone.</p>
+            <div class="dialog-buttons">
+                <button id="btn-confirm-delete" class="danger">Delete</button>
+                <button id="btn-cancel-delete">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="echarts.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
