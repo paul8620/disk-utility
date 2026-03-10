@@ -1,5 +1,15 @@
 # Disk Analyzer
 
+A desktop application that scans your file system and visualizes disk usage through an interactive pie chart, helping you quickly identify large folders and files so you can reclaim storage space. Browse your directory tree, see sizes at a glance, and delete or clean folders — all from a single native window.
+
+## Origin story
+
+One evening not having enough space on my computer I decided to build an app that allows me to see and manage big folders... and so my prompting journey started.
+
+## About
+
+![alt text](image.png)
+
 ## Tech stack
 
 - Rust (edition 2021)
